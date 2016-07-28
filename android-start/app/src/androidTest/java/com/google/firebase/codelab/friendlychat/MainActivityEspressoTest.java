@@ -38,4 +38,8 @@ public class MainActivityEspressoTest {
             new ActivityTestRule<>(MainActivity.class);
 
     // Add instrumentation test here
+    @Test
+    public void verifySignUpButtonDisplayed() {
+        onView(ViewMatchers.withId(R.id.sign_in_button)).check(matches(isDisplayed()));
+    }
 }
