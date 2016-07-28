@@ -43,6 +43,7 @@ dependencies {
 
     // Google
     compile 'com.google.android.gms:play-services-auth:9.2.1'
+    compile 'com.google.android.gms:play-services-ads:9.2.1'
 
     // Firebase
     compile 'com.google.firebase:firebase-database:9.2.1'
